@@ -10,7 +10,7 @@ Friend Class code_editor
     Public userclose As Integer
     Public playsound As String
     Public getinputst As String
-    Dim codeedited As Boolean
+    Dim codeedited As String
     Private Sub OpenToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OpenToolStripMenuItem.Click
         open()
     End Sub
