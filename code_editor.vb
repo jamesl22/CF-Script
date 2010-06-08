@@ -11,6 +11,7 @@ Friend Class code_editor
     Public playsound As String
     Public getinputst As String
     Dim codeedited As String
+    Dim downloaddest As String
     Private Sub OpenToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OpenToolStripMenuItem.Click
         open()
     End Sub
@@ -325,6 +326,16 @@ Friend Class code_editor
                         ProgressBar1.Value = ProgressBar1.Minimum
                         Exit Sub
                     End If
+
+                ElseIf interpreter.code.Text.StartsWith("download::dest") Then
+                    interpreter.code.Text = Replace(interpreter.code.Text, "download::dest(""", "")
+                    interpreter.code.Text = Replace(interpreter.code.Text, """)", "")
+                    downloaddest = interpreter.code.Text
+
+                ElseIf interpreter.code.Text.StartsWith("download::file") Then
+                    interpreter.code.Text = Replace(interpreter.code.Text, "download::file(""", "")
+                    interpreter.code.Text = Replace(interpreter.code.Text, """)", "")
+                    My.Computer.Network.DownloadFile(interpreter.code.Text, downloaddest)
 
                 End If
                 EOF(1)
