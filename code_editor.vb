@@ -335,8 +335,11 @@ Friend Class code_editor
                 ElseIf interpreter.code.Text.StartsWith("download::file") Then
                     interpreter.code.Text = Replace(interpreter.code.Text, "download::file(""", "")
                     interpreter.code.Text = Replace(interpreter.code.Text, """)", "")
-                    My.Computer.Network.DownloadFile(interpreter.code.Text, downloaddest)
-
+                    Try
+                        My.Computer.Network.DownloadFile(interpreter.code.Text, downloaddest)
+                    Catch ex As Exception
+                        MsgBox(ex.Message)
+                    End Try
                 End If
                 EOF(1)
             Loop
