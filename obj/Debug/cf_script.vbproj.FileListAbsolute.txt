@@ -1,0 +1,16 @@
+C:\work\CF\CF_Script.NET\bin\CF_Script.exe
+C:\work\CF\CF_Script.NET\bin\CF_Script.pdb
+C:\work\CF\CF_Script.NET\bin\CF_Script.xml
+C:\work\CF\CF_Script.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.code_editor.resources
+C:\work\CF\CF_Script.NET\obj\Debug\cf_script.vbproj.GenerateResource.Cache
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.exe
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.xml
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.pdb
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.interpreter.resources
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.Form2.resources
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.Resources.resources
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.About.resources
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.SplashScreen.resources
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.cfconsole.resources
+C:\work\CF\CF_Script.NET\obj\Debug\CF_Script.helpform.resources
